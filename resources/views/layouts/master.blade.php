@@ -7,19 +7,7 @@
     <div class="container">
         <div class="row ">
             <!-- Right sidebar start -->
-            <div class="col-3 ">
-                <br />
-                <div class="card bg-tomato">
-                    <div class="card-header text-center">
-                        Featured
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Test 1</li>
-                        <li class="list-group-item">Test 2</li>
-                        <li class="list-group-item">Test 3</li>
-                    </ul>
-                </div>
-            </div>
+            @include('layouts.partials.sidenav')
             <!-- Right sidebar End -->
             <!-- Main body start -->
             <div class="col-9"> <br>

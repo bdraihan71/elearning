@@ -36,3 +36,10 @@ nav{
 .pull-right {
   float: right !important;
 }
+
+.card-header,
+.card,
+.btn{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+/* side navbar */
